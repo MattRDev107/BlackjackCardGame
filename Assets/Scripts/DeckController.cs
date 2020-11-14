@@ -2,17 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DeckController : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+public class DeckController : MonoBehaviour {
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    private Deck deck;
+
+	public void Start() {
+		deck = new Deck();
+		Debug.Log(deck.ToString());
+	}
 }
