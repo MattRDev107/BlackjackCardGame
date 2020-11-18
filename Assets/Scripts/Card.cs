@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Card {
 
-	public string Rank { get; set; }
-	public string Suit { get; set; }
-	public string Value { get; set; }
+	public string Rank { get; }
+	public string Suit { get; }
+	public string Value { get; }
 
 	public Card(string rank, string suit) {
 		this.Rank = rank;
